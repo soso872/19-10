@@ -11,10 +11,15 @@ idade = 19
 
 #exibir o meu nome(que esta dentro da variavel nome)
 print(nome)
-print(idade)
+ 
+#quando quiser exibir a frase "minha idade é"completando com conteudo da variavel idade
+#print("meu nome é " +nome)
+print("Minha idade é "+str(idade)+" anos")
+print(f"Minha idade é {idade}\n")
+print("Minha idade é {}".format(idade))
 
-
-
+#quando quiser exibir "meu nome é... e tenho...anos" trocando pelas variaveis nome e idade
+print("Meu nome é {} e tenho {} anos".format(nome,idade))
 
 ''' 
 comentario em bloco
