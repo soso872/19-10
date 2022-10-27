@@ -5,10 +5,10 @@ nome = input("digite seu nome:\n ")
 idade = int(input("qual sua idade?:\n "))
 
 #comando de saida...exibir na tela
-print(f"seu nome é\n {nome}")
+print(f"seu nome é:\n {nome}")
 
 #exiba "sua idade é"
-print("sua idade é\n {}".format(idade))
+print("sua idade é:\n {}".format(idade))
 
 #se quiser mostrar o dobro da idade informada
 double=idade*2
